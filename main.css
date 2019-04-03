@@ -1,0 +1,156 @@
+#myname {
+  color: blue;
+  font-size: 32px;
+}
+
+.topthreeparagraphs {
+  color:blue;
+}
+
+
+#firstfav {
+  font-size: 40px;
+  font-weight: 400;
+  color: pink;
+  
+}
+
+#secondfav {
+  font-size: 32px;
+    font-weight: 500;
+    color: purple;
+}
+
+#thirdfav {
+  font-size: 36px;
+  font-weight: 450;
+  color: turquoise;
+}
+
+#fourthfav {
+  font-size: 42px;
+  font-weight: 425;
+  color: violet;
+}
+
+#quotes {
+  font-weight: bold;
+}
+
+#firstquote {
+  color: teal;
+  font-size: 15px;
+  font-family: 'Roboto'
+}
+#secondquote {
+  color: gray;
+  font-size:16px;
+  font-family: 'Ariel'
+ 
+}
+
+#thirdquote {
+  color: violet;
+  font-size: 17px;
+  font-family: 'Comic'
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://www.history.com/.image/t_share/MTU3ODc5MDgyNjY5OTc1MjYz/new-york-city.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
